@@ -1,13 +1,13 @@
 # Multi-Connector Microservices with GRPC, SOAP, GraphQL, and REST
 
-This project showcases the integration of gRPC and multi-connector microservices utilizing SOAP, REST, GraphQL, and GRPC. It encompasses both basic GRPC communication models and a distributed system integrating multiple web service technologies.
+This project showcases the integration of GRPC and multi-connector microservices utilizing SOAP, REST, GraphQL, and GRPC. It encompasses both basic GRPC communication models and a distributed system integrating multiple web service technologies.
 
 
 
 ## Introduction
 
 The project is split into two main parts:
-1. **GRPC Implementation:** Illustrates the four basic gRPC communication models.
+1. **GRPC Implementation:** Illustrates the four basic GRPC communication models.
 2. **Multi-Connector Microservices:** Constructs a distributed system with customer and account services connected via REST, GraphQL, SOAP, and GRPC.
 
 ## Prerequisites
