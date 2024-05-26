@@ -1,14 +1,14 @@
-# Multi-Connector Microservices with gRPC, SOAP, GraphQL, and REST
+# Multi-Connector Microservices with GRPC, SOAP, GraphQL, and REST
 
-This project showcases the integration of gRPC and multi-connector microservices utilizing SOAP, REST, GraphQL, and gRPC. It encompasses both basic gRPC communication models and a distributed system integrating multiple web service technologies.
+This project showcases the integration of gRPC and multi-connector microservices utilizing SOAP, REST, GraphQL, and GRPC. It encompasses both basic GRPC communication models and a distributed system integrating multiple web service technologies.
 
 
 
 ## Introduction
 
 The project is split into two main parts:
-1. **gRPC Implementation:** Illustrates the four basic gRPC communication models.
-2. **Multi-Connector Microservices:** Constructs a distributed system with customer and account services connected via REST, GraphQL, SOAP, and gRPC.
+1. **GRPC Implementation:** Illustrates the four basic gRPC communication models.
+2. **Multi-Connector Microservices:** Constructs a distributed system with customer and account services connected via REST, GraphQL, SOAP, and GRPC.
 
 ## Prerequisites
 
@@ -16,11 +16,11 @@ The project is split into two main parts:
 - Maven
 - Protocol Buffers Compiler (protoc)
 - Spring Boot
-- gRPC Java library
+- GRPC Java library
 - GraphQL Java library
 - SOAP library (JAX-WS)
 
-## Part 1: gRPC Implementation
+## Part 1: GRPC Implementation
 
 ### Unary Model
 
@@ -46,7 +46,7 @@ The customer service manages customer information and is implemented with the fo
 - **REST API:** Using Spring Boot.
 - **GraphQL API:** Using Spring Boot GraphQL.
 - **SOAP API:** Using JAX-WS.
-- **gRPC API:** Using gRPC Java.
+- **GRPC API:** Using GRPC Java.
 
 ### Account Service
 
@@ -54,14 +54,14 @@ The account service manages account information and is implemented with the foll
 - **REST API:** Using Spring Boot.
 - **GraphQL API:** Using Spring Boot GraphQL.
 - **SOAP API:** Using JAX-WS.
-- **gRPC API:** Using gRPC Java.
+- **GRPC API:** Using GRPC Java.
 
-### Integration with REST, GraphQL, SOAP, and gRPC
+### Integration with REST, GraphQL, SOAP, and GRPC
 
 
 ## Testing
 
-- **gRPC Testing:** Use `grpcurl` or a gRPC client library.
+- **GRPC Testing:** Use `grpcurl` or a GRPC client library.
 - **REST API Testing:** Use Postman or curl.
 - **GraphQL Testing:** Use GraphQL Playground or Postman.
 - **SOAP Testing:** Use SOAP-UI or Postman.
